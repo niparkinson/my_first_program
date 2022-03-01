@@ -2,7 +2,6 @@ import re
 
 hand = open('regexsum1494080.txt')
 
-lst = list()
 total = 0
 for line in hand:
     number_string = re.findall("[0-9]+", line)
